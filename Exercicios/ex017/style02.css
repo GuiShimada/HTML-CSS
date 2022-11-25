@@ -1,0 +1,19 @@
+@charset "pt-br";
+
+body {
+    font: normal 16px arial, helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 25px;
+}

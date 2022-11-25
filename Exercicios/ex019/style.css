@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+    em HTML id = em CSS #
+    em HTML class = em CSS .
+*/
+
+body {
+    background-image: linear-gradient(to right,rgb(255, 48, 48), rgb(174, 0, 0));
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-style: italic;
+}
+
+#basico {
+    background-color: rgba(0, 97, 97, 0.514);
+}
+
+#intermediario {
+    background-color: rgba(95, 95, 0, 0.534);
+}
+
+#avançado {
+    background-color: rgba(47, 0, 91, 0.549);
+}
+
+.pai {
+    color: rgb(41, 75, 8);
+}

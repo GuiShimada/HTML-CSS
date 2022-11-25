@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #A4A4A6;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(232, 225, 225);
+    padding: 0px 10px 10px 10px;
+    margin: 5px;
+}
+
+nav {
+    background-color: #7a7676;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+#assuntos {
+    background-color: rgb(232, 225, 225);
+    padding:5px;
+    margin: 0px 5px ;
+}
+
+#notícias {
+    background-color: rgb(232, 225, 225);
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+article {
+    background-color: white;
+    padding: 5px;
+}
+
+aside {
+    background-color: #D9D9DB;
+    padding: 0px 0px 0px 5px;
+}
+
+footer {
+    background-color: #414141;
+    color: #D9D9DB;
+    text-align: center;
+    padding: 1px;
+}
+

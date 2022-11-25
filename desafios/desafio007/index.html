@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 07 repositorio</title>
+</head>
+<body>
+    <h1>Desafio da imagem flexivel</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemteste-300.webp" type="image/webp">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemteste-700.webp" type="image/webp">
+        <img src="imagens/imagemteste-1100.webp" alt="imagem grande">
+    </picture>
+</body>
+</html>

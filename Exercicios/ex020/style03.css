@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+a {
+    color: chocolate;
+    text-decoration: none;   
+}
+
+a:visited {
+    color: rgb(0, 79, 53);
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+a:active {
+    color: greenyellow; 
+}
+
+a:after {
+    content: ' [meu ovo]';
+    text-decoration: none;
+    font-size: normal;
+    
+}
+
+.diferenciado:before {
+    content: '=>';
+}
+
+.diferenciado:after {
+    content: '<=';
+}
+
+.diferenciado {
+    background-color: rgb(172, 172, 248);
+}

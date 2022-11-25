@@ -1,0 +1,137 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'iDroid';
+    src: url(idroid.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Bobas Neue';
+    src: url(SourceSansPro-Regular.ttf) format("truetype");
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0;
+}
+
+h1,h2 {
+    font-family: 'iDroid';
+}
+
+body {
+    background-color: #1B8FDB;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #17A4DB,#0F76F2,#1020E8);
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 2px 11px rgb(0 0 0 / 50%);
+    height: 210px;
+}
+
+header > h1,#cabeça {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.443);
+}
+
+header > p {
+    margin-bottom: 30px;
+}
+
+header > h1 {
+    font-family: 'Bobas Neue';
+}
+
+nav > ul {
+    list-style: none;
+    display: inline-block;
+}
+
+section {
+    text-align: justify;
+    text-indent: 30px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 2px 13px 0px rgb(0 0 0 / 50%);
+}
+
+#historia > h2 {
+    color: #0F76F2;
+    margin: 20px 20px 20px 0px;
+}
+
+img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bug {
+    width: 60%;
+    margin-left: 100px;
+}
+
+.versoes > h1 {
+    color: #0F76F2;
+    background-image: linear-gradient(to right, #03b3ee64, #ffffff);
+    margin: 20px 20px 20px 0px;
+}
+
+#final {
+    text-align: right;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #1020E8;
+    padding: 3px;
+    color: white;
+    width: 100%;
+}
+
+#extra {
+    background-color: #03b3ee79;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#mais {
+    text-align: left;
+    background-color: #03b3eeb9;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+nav > a {
+    padding: 15px;
+    font-weight: bold;
+    color: #03b3ee;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: #1020E8;
+    background-color: #03b3ee;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#video {
+    background: #03b3ee;
+}

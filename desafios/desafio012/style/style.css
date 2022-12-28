@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+       
+}
+
+header h1 {
+    font-family: 'Passion One';
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    font-family: 'Patrick Hand';
+    font-size: 3vh;
+    font-style: italic;
+}
+
+section {
+    padding: 60px 0px;   
+    
+}
+
+section p {
+    padding: 20px;
+    width: 240px;
+}
+
+#p2 {
+    box-shadow: inset 0px 6px 6px 3px #0000006e;
+    background: black url(../imagens/background001.jpg) right no-repeat fixed;
+    background-size: 1200px;
+}
+
+#p2 p {
+    background-color: rgba(0, 0, 0, 0.335);
+    color: rgb(224, 242, 242);
+}
+
+#p4 {
+    box-shadow: inset 0px 6px 6px 3px #0000006e;
+    background: black url(../imagens/background002.jpg) right no-repeat fixed;
+    background-size: 1300px;
+}
+
+
+#p4 p {
+    color: rgb(244, 242, 242);
+    background-color: rgba(0, 0, 0, 0.335);
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}

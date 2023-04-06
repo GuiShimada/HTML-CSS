@@ -8,10 +8,16 @@
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form>
-        <p>automóvel: <input type="text" name="automóvel" id="automóvel"></p>
-        <p>valor máx: <input type="text" name="valor" id="valor"></p>
-        <p><input type="submit" value="ovo"></p>
+    <form autocomplete="off" action="cadastro.php">
+        <p><label for="iautomovel">automóvel</label> 
+            <input type="text" name="automovel" id="iautomovel">
+        </p>
+        <p><label for="ivalor">valor máx:</label> 
+            <input type="text" name="valor" id="ivalor">
+        </p>
+        <p>
+            <input type="submit" value="ovo">
+        </p>
     </form>
 </body>
 </html>

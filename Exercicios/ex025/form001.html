@@ -10,13 +10,14 @@
     <h1>Meu primeiro formulario</h1>
     <form autocomplete="off" action="cadastro.php">
         <p><label for="iautomovel">automóvel</label> 
-            <input type="text" name="automovel" id="iautomovel">
+            <input type="text" name="automovel" id="iautomovel" maxlength="6" minlength="3" placeholder="que carro tu quer?">
         </p>
         <p><label for="ivalor">valor máx:</label> 
-            <input type="text" name="valor" id="ivalor">
+            <input type="text" name="valor" id="ivalor" maxlength="10" placeholder="qunato tu tem?">
         </p>
         <p>
-            <input type="submit" value="ovo">
+            <input type="submit" value="procura ae!">
+            <input type="reset" value="volta tudo">
         </p>
     </form>
 </body>

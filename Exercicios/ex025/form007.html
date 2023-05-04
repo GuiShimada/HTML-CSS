@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        div {
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" autocomplete="on" method="get">
+        <div>
+            <label for="iestados">escolha seu Estado</label>
+            <select name="estados" id="iestados">
+                <option selected value="">--- Obrigatório ---</option>
+                <optgroup label="Norte">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+
+            <optgroup label="Centro-Oeste">
+                <option value="DF">Distrito Federal</option>
+                <option value="MT">Mato Grosso do Sul</option>
+                <option value="GO">Goiás</option>
+            </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="icarro">carro favorito</label>
+            <input type="text" name="carro" id="icarro" list="lstcar">
+            <datalist id="lstcar">
+                <option value="Camaro">GM</option>
+                <option value="GTR-R34">Nissan</option>
+                <option value="Supra">Toyota</option>
+                <option value="koenigsegg jesko">koenigsegg</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Sua mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="2"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+</body>
+</html>

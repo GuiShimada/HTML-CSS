@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilo/mediaQuery.css">
     <title>Menu responsivo</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span class="material-icons" onclick="inMenu()">menu</span>
@@ -38,6 +38,13 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 769) {
+                itens.style.display = "block"
+            } else {
+                itens.style.display = "none"
+            }
+        }
         function inMenu() {
             if (itens.style.display == 'none') {
                 itens.style.display = "block"

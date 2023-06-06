@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/mediaQuery.css">
     <title>Menu responsivo</title>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span class="material-icons" onmouseenter="inMenu()" onmouseleave="outMenu()">menu</span>
+        <span class="material-icons" onclick="inMenu()">menu</span>
         <menu id="itens">
-            <ul onmouseenter="inMenu()" onmouseleave="outMenu()">
+            <ul >
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opção 2</a></li>
                 <li><a href="#">opção 3</a></li>
@@ -38,10 +39,11 @@
     </main>
     <script>
         function inMenu() {
-            itens.style.display = 'block'
-        }
-        function outMenu() {
-            itens.style.display = 'none'
+            if (itens.style.display == 'none') {
+                itens.style.display = "block"
+            } else {
+                itens.style.display = "none"
+            }
         }
     </script>
 </body>
